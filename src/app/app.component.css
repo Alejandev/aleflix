@@ -373,3 +373,21 @@
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
+
+/* Eliminar estas clases: */
+/* .video-player-modal */
+/* .player-container */
+/* .player-header */
+/* .player-title */
+/* .close-button */
+/* .video-wrapper */
+/* .player-controls */
+/* .btn-download */
+
+/* Mantener solo los estilos de: */
+/* - netflix-container */
+/* - netflix-header */
+/* - hero-section */
+/* - content-section */
+/* - videos-grid */
+/* - video-card */

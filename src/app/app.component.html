@@ -48,27 +48,4 @@
       </div>
     </div>
   </section>
-
-  <!-- Video Player Modal -->
-  <div class="video-player-modal" *ngIf="showPlayer && currentVideo" (click)="closePlayer()">
-    <div class="player-container" (click)="$event.stopPropagation()">
-      <div class="player-header">
-        <h3 class="player-title">{{currentVideo.nombre}}</h3>
-        <button class="close-button" (click)="closePlayer()">✕</button>
-      </div>
-      <div class="video-wrapper">
-        <iframe 
-          [src]="safeVideoUrl" 
-          width="100%" 
-          height="100%"
-          frameborder="0"
-          allowfullscreen
-          allow="autoplay; encrypted-media">
-        </iframe>
-      </div>
-      <div class="player-controls">
-        <p class="video-description">{{currentVideo.nombre}} - Disfruta de este contenido exclusivo</p>
-      </div>
-    </div>
-  </div>
 </div>
